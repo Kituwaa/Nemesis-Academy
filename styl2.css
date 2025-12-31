@@ -1,0 +1,97 @@
+*{
+    margin: auto;
+    padding: 0%;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+header{
+    width: 100%;
+    height: 100px;
+    background-image: url(obrazy/baner.jpg);
+    flex-direction: row;
+    display: flex;
+}
+main{
+width: 100%;
+height: 950px;
+display: flex;
+flex-direction: row;
+background-image: url(obrazy/tlo.png);
+align-items: center;
+}
+#znak_wodny, #znak{
+    height: 100px;
+    width: 250px;
+}
+footer{
+    width: 100%;
+    height: 50px;
+}
+a{
+    text-decoration: none;
+    border-radius: 10px;
+    color: white;
+    padding: 10px;
+    background: radial-gradient(circle, rgb(67, 24, 24), rgb(106, 24, 24));
+    margin-right: 100px;
+    box-shadow: 4px 4px 0px rgb(61, 8, 8);
+}
+a:hover{
+    box-shadow: 7px, 7px, 7px rgb(207, 90, 90);
+}
+nav{
+    justify-content: space-around;
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+/*-----------------------------*/
+#wrapper{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+   gap: 40px;
+   margin-top: 20px;
+}
+#skokowy, #ujezdzeniowy{
+ width: 600px;
+ height: 900px;
+ border-radius: 5%;
+ background-color: #855959a2;
+text-align: center;
+}
+@keyframes slideIn {
+    from {
+        transform: translateX(200%);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+@keyframes slideIn2 {
+    from {
+        transform: translateX(-200%);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+#ujezdzeniowy{
+    overflow-y: auto;
+    overflow-x: hidden;
+      transform: translateX(200%);
+      animation: slideIn 1.5s ease-out forwards;
+}
+#skokowy{
+        transform: translateX(-200%);
+      animation: slideIn2 1.5s ease-out forwards;
+}
+h4{
+margin-right: 320px;
+}
+.stroje{
+    height: auto;
+    width: 500px;
+}

@@ -1,0 +1,242 @@
+*{
+    margin: auto;
+    padding: 0%;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+header{
+    width: 100%;
+    height: 100px;
+    background-image: url(obrazy/baner.jpg);
+    flex-direction: row;
+    display: flex;
+}
+main{
+width: 100%;
+height: 550px;
+display: flex;
+flex-direction: row;
+background-image: url(obrazy/tlo.png);
+align-items: center;
+
+}
+
+footer{
+    width: 100%;
+    height: 50px;
+}
+#znak_wodny, #znak{
+    height: 100px;
+    width: 250px;
+}
+#logo{
+    height: 300px;
+    width: 300px;
+    border-radius: 25%;
+      transform: translateX(-200%);
+      animation: slideIn 2s ease-out forwards;
+}
+@keyframes slideIn {
+    from {
+        transform: translateX(-200%);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+#logo_glowne{
+    justify-content: center;
+    padding-top: 100px;
+}
+pre{
+    text-decoration: none;
+}
+.zdjecie_z_opisem{
+background-color: rgba(188, 147, 116, 0.418);
+display: flex;
+flex-direction: row;
+}
+h1{
+    margin-left: 50px;
+    margin-bottom: 40px;
+}
+#informacje_glowne{
+    margin-top: 150px;
+}
+
+.nawigacja{
+    text-decoration: none;
+    border-radius: 10px;
+    color: white;
+    padding: 10px;
+    background: radial-gradient(circle, rgb(67, 24, 24), rgb(106, 24, 24));
+    margin-right: 100px;
+    box-shadow: 4px 4px 0px rgb(61, 8, 8);
+}
+.nawigacja:hover{
+    box-shadow: 7px, 7px, 7px rgb(207, 90, 90);
+}
+nav{
+    justify-content: space-around;
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+#opisy {
+  display: flex;
+  justify-content: center;
+  background-image: url(obrazy/tlo2.png);
+  height: 440px;
+  align-items: center;
+}
+
+.slider-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.nav.prev{
+  left: 10px;
+}
+.nav.next{
+  right: 10px;
+}
+.nav {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: #4444445a;
+  color: white;
+  border: none;
+  font-size: 32px;
+  padding: 12px 18px;
+  cursor: pointer;
+  border-radius: 50%;
+  z-index: 10;
+}
+.carousel{
+  position: relative;
+  width: 1200px;
+  overflow: hidden;
+}
+.carousel-window {
+  overflow: hidden;
+  width: 100%;
+}
+.track{
+  display: flex;
+ /* flex-wrap: nowrap;*/
+  transition: transform 0.5s ease;
+}
+.nav:hover {
+  background: #222222a2;
+}
+
+
+
+
+.slide {
+  /*display: none;*/
+  width: 400px;
+  flex-shrink: 0;
+  text-align: center;
+  transform: scale(0.9);
+  transition: transform 0.4s ease;
+}
+
+.slide.active {
+  transform: scale(1);
+}
+
+
+.slide img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  filter: blur(6px) brightness(0.7);
+  transition: filter 0.4s ease, transform 0.4s ease;
+}
+
+.slide.active img {
+  filter: blur(0) brightness(1);
+  transform: scale(1.05);
+}
+
+
+.opis {
+  margin-top: 12px;
+  padding: 10px;
+  background: rgba(0,0,0,0.7);
+  color: white;
+  font-size: 15px;
+  opacity: 0;
+  transition: opacity 0.4s ease;
+}
+.slide.active .opis {
+  opacity: 1;
+}
+#obr1{
+    height: 250px;
+    width: auto;
+    border-radius: 20%;
+}
+#display{
+    display: flex;
+    flex-direction: row;
+}
+#dyscypliny{
+          background-color: rgba(188, 147, 116, 0.418);
+          background-image: url(obrazy/tlo2.jpg);
+          color: rgb(117, 25, 25);
+}
+.pasek{
+  height: 20px;
+  background-color: black;
+}
+#koniec{
+  background-color: rgba(255, 255, 255, 0.834);
+  border-radius:  20% 50% / 50% 20%;
+}
+.media{
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+
+}
+#ig, #tt, #dsc{
+ height: 330px;
+  width: 250px;
+  border: 2px black solid;
+  border-radius: 10%;
+  text-align: center;
+  justify-content: center;
+   display: flex;
+   align-items: center;
+    transition:
+    transform 0.4s cubic-bezier(0.22, 1, 0.36, 1),
+    box-shadow 0.4s ease;
+}
+#ig:hover, #tt:hover, #dsc:hover{
+  transform: scale(1.10) translateY(-5px);
+}
+#ig{
+  background-image: url(obrazy/tlo_ig.png);
+}
+#tt{
+  background-image: url(obrazy/tlo_tt.png);
+}
+#dsc{
+  background-image: url(obrazy/tlo_dsc.png);
+}
+#ig:hover{
+  background-image: url(obrazy/tlo_ig_hover.png);
+}
+#tt:hover{
+  background-image: url(obrazy/tlo_tt_hover.png);
+}
+#dsc:hover{
+  background-image: url(obrazy/tlo_dsc_hover.png);
+}

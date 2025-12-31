@@ -1,0 +1,82 @@
+Obszerne, zielone pastwisko pokryte ziołami, idealne do wypasania koni
+
+Duża ilość kwater, zapewniające profesjonalną opiekę, nocleg na wolnym wybiegu i wyżywienie, pełen komfort dla twojego konia!
+
+place skokowe i ujeżdżeniowe z pochłaiaczem wody oraz nawadnianiem podłoża, idealne do treningów jeździeckich, 
+
+dwie ogromne hale do trenowania koni, zakryte i zadaszone, zapewnia komfortowe warunki do jazdy konnej i treningów niezależnie od pogody.
+
+Ogrodzony lonżownik, służący do pracy nad koniem z użyciem lonży, idealny do treningu.
+
+
+Myjka zewnętrzna z ciepłą wodą, miejsce gdzie po intensywnym treningu lub spacerze w błocie, możesz zapewnić swojemu koniu kojącą kąpiel w komfortowych warunkach 
+
+Stajnie Angielskie zapewniające koniom stały dostęp do świeżego powietrza.
+
+Tor Crossowy, trasa w naturalnym terenie z przeszkodami, piękne plenery oraz adrenalina i wyzwania
+
+Stajnia wewnętrzna w Gotyckim stylu
+
+
+
+
+
+
+<div id="pastwisko" class="zdjecie_z_opisem">
+            <img src="obrazy/pastwisko.png" alt="pastwisko" class="obrazki">
+            <pre>Obszerne, zielone pastwisko pokryte ziołami, 
+                idealne do wypasania koni.</pre>
+        </div>
+        <div id="kwatery" class="zdjecie_z_opisem">
+            <img src="obrazy/kwatery.png" alt="kwatery" class="obrazki">
+            <pre>
+                Duża ilość kwater, zapewniające profesjonalną opiekę, 
+                nocleg na wolnym wybiegu i wyżywienie, 
+                pełen komfort dla twojego konia!
+</pre>
+        </div>
+        <div id="plac_skokowy" class="zdjecie_z_opisem">
+                <img src="obrazy/plac_sskokowy.png" alt="plac skokowy" class="obrazki">
+                <pre>place skokowe i ujeżdżeniowe z pochłaiaczem wody oraz 
+                    nawadnianiem podłoża, idealne do treningów jeździeckich. </pre>
+        </div>
+        <div  id="hale" class="zdjecie_z_opisem">
+            <img src="obrazy/hala1.png" alt="hala 1" class="obrazki">
+            <img src="obrazy/hala2.png" alt="hala 2" class="obrazki">
+            <pre>
+                dwie ogromne hale do trenowania koni, 
+                zakryte i zadaszone, zapewnia komfortowe warunki 
+                do jazdy konnej i treningów niezależnie od pogody.
+</pre>
+        </div>
+        <div id="lonzownik" class="zdjecie_z_opisem">
+                <img src="obrazy/lonzownik.png" alt="lonżownik" class="obrazki">
+                <pre>dwie ogromne hale do trenowania koni, 
+                    zakryte i zadaszone, zapewnia komfortowe warunki 
+                    do jazdy konnej i treningów niezależnie od pogody.
+</pre>
+        </div>
+        <div id="myjka" class="zdjecie_z_opisem">
+                <img src="obrazy/myjka.png" alt="myjka zewnętrzna" class="obrazki">
+                <pre>Myjka zewnętrzna z ciepłą wodą, 
+                    miejsce gdzie po intensywnym treningu 
+                    lub spacerze w błocie, możesz zapewnić 
+                    swojemu koniu kojącą kąpiel w komfortowych warunkach 
+</pre>
+        </div>
+        <div id="stajnie_angielskie" class="zdjecie_z_opisem">
+                <img src="obrazy/stajnia_angielska.png" alt="Stajnie angielskie" class="obrazki">
+                <pre>Stajnie Angielskie zapewniające koniom stały dostęp do świeżego powietrza.</pre>
+        </div>
+        <div id="tor_crossowy" class="zdjecie_z_opisem">
+                <img src="obrazy/tor_crossowy.png" alt="tor crossowy" class="obrazki">
+                <pre>Tor Crossowy, trasa w naturalnym terenie z przeszkodami,
+                     piękne plenery oraz adrenalina i wyzwania
+</pre>
+        </div>
+        <div id="stajnia" class="zdjecie_z_opisem">
+            <img src="obrazy/stajnia1.png" alt="stajnia1" class="obrazki">
+            <img src="obrazy/stajnia2.png" alt="stajnia2" class="obrazki">
+            <img src="obrazy/stajnia3.png" alt="stajnia3" class="obrazki">
+            <pre>Stajnia wewnętrzna w Gotyckim stylu</pre>
+        </div>
